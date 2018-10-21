@@ -1,0 +1,65 @@
+using System;
+
+
+public class Program
+    {
+        public static void Main(string[] args)
+        {
+            int a = 8;
+            int b = 3;
+
+            Console.WriteLine("Variables int");
+            Console.WriteLine("a: " + a);
+            Console.WriteLine("b: " + b);
+            Console.WriteLine("a + b = " + (a + b));
+            Console.WriteLine("a - b = " + (a - b));
+            Console.WriteLine("a * b = " + (a * b));
+            Console.WriteLine("a / b = " + (a / b));
+            Console.WriteLine("");
+
+            float c = 19;
+            float d = 7;
+
+            Console.WriteLine("Variables float");
+            Console.WriteLine("c: " + c);
+            Console.WriteLine("d: " + d);
+            Console.WriteLine("c + d = " + (c + d));
+            Console.WriteLine("c - d = " + (c - d));
+            Console.WriteLine("c * d = " + (c * d));
+            Console.WriteLine("c / d = " + (c / d));
+            Console.WriteLine("");
+
+            float e = 100;
+            float f = 250;
+
+            Console.WriteLine("Variables double");
+            Console.WriteLine("e: " + e);
+            Console.WriteLine("f: " + f);
+            Console.WriteLine("e + f = " + (e + f));
+            Console.WriteLine("e - f = " + (e - f));
+            Console.WriteLine("e * f = " + (e * f));
+            Console.WriteLine("e / f = " + (e / f));
+            Console.WriteLine("");
+
+            byte g = 80;
+            byte h = 35;
+
+            Console.WriteLine("Variables byte");
+            Console.WriteLine("g: " + g);
+            Console.WriteLine("h: " + h);
+            Console.WriteLine("g + h = " + (g + h));
+            Console.WriteLine("g - h = " + (g - h));
+            Console.WriteLine("g * h = " + (g * h));
+            Console.WriteLine("g / h = " + (g / h));
+            Console.WriteLine("");
+
+            Console.WriteLine("Comparativas");
+            Console.WriteLine("g + h > 100: " + ((g + h) > 100));
+            Console.WriteLine("g + h <= 100: " + ((g + h) <= 150));
+            Console.WriteLine("e / f >= 5: " + ((e / f) >= 5));
+            Console.WriteLine("c + d == 20 " + ((c + d) == 20));
+            Console.WriteLine("a + b != 18 " + ((a + b) != 18));
+
+            string algo = Console.ReadLine();
+     }
+}

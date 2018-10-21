@@ -1,0 +1,57 @@
+using System;
+
+public class Program2
+    {
+        public static void Main(string[] args)
+        {
+            //Variables
+            int n1, n2, n3, n4, n5;
+            double suma, prom;
+			
+            Console.Write("Ingresa un numero: ");
+            n1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingresa otro numero: ");
+            n2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingresa otro numero: ");
+            n3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingresa otro numero: ");
+            n4 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Ingresa otro numero: ");
+            n5 = Convert.ToInt32(Console.ReadLine());
+
+            suma = (double)n1 + (double)n2 + (double)n3 + (double)n4 + (double)n5;
+            Console.Write("\nLa suma de los 5 numeros: "+suma);
+
+            prom = suma / 5;
+            Console.Write("\nEl promedio de los 5 numeros: " + prom);
+
+
+
+            if (n1 >= n2 && n1 >= n3 && n1 >= n4 && n1 >= n5)
+            {
+                Console.Write("\nEl numero mayor es: " + n1);
+            }
+            else if (n2 >= n1 && n2 >= n3 && n2 >= n4 && n2 >= n5)
+            {
+                Console.Write("\nEl numero mayor es: " + n2);
+            }
+            else if (n3 >= n1 && n3 >= n2 && n3 >= n4 && n3 >= n5)
+            {
+                Console.Write("\nEl numero mayor es: " + n3);
+            }
+            else if (n4 >= n1 && n4 >= n2 && n4 >= n3 && n4 >= n5)
+            {
+                Console.Write("\nEl numero mayor es: " + n4);
+            }
+            else if (n5 >= n1 && n5 >= n2 && n5 >= n3 && n5 >= n4)
+            {
+                Console.Write("\nEl numero mayor es: " + n5);
+            }
+
+            String leer = Console.ReadLine();
+        }
+    }

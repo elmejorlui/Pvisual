@@ -1,0 +1,35 @@
+using System;
+
+public class Program4
+    {
+        public static string ReverseString(string s)
+        {
+            char[] arr = s.ToCharArray();
+            Array.Reverse(arr);
+            return new string(arr);
+        }
+
+        public static void Main(string[] args)
+        {
+            String word = "";
+
+            while (word.Equals(""))
+            {
+                Console.WriteLine("Ingrese una palabra: ");
+                word = Console.ReadLine();
+            }
+
+            String word2 = ReverseString(word);
+
+            if (word.Equals(word2))
+            {
+                Console.WriteLine("Si es palindromo");
+            }
+            else
+            {
+                Console.WriteLine("No es palindromo");
+            }
+
+            String leer = Console.ReadLine();
+        }
+    }
