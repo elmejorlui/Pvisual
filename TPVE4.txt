@@ -1,0 +1,27 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int[,] algo = new int [4,5]{
+			{1,9,23,34,102},
+			{2,8,67,56,23},
+			{3,7,84,78,43},
+			{4,5,90,98,34}		
+		};
+		
+		for(int i = 0; i <= 4; i++){
+			if(i%2 != 0){
+				for(int j = 3;j >= 0;j--){
+					Console.Write(algo[j,i]+"\n");
+				}
+			}else{
+				for(int j = 0;j <= 3;j++){
+					Console.Write(algo[j,i]+"\n");
+				}
+			}
+			Console.Write("\n");
+		}
+	}
+}
