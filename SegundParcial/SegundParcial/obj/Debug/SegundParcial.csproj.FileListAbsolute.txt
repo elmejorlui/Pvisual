@@ -1,0 +1,7 @@
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\bin\Debug\SegundParcial.exe.config
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\bin\Debug\SegundParcial.exe
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\bin\Debug\SegundParcial.pdb
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\obj\Debug\SegundParcial.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\obj\Debug\SegundParcial.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\obj\Debug\SegundParcial.exe
+C:\Users\Usuario\source\repos\SegundParcial\SegundParcial\obj\Debug\SegundParcial.pdb
